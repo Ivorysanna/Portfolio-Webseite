@@ -1,11 +1,13 @@
 body {
     margin: 0;
+    padding: 0;
     text-align: center;
 }
 
 /*Farbcodes: *003fbc-b4edd2-a0cfd3-8d94ba-9a7aa0*/
 
 a {
+
     color: white;
     text-decoration: inherit;
 }
@@ -28,7 +30,6 @@ nav {
 }
 
 #aboutMe {
-    background-color: #A0CFD3;
     margin: 0px;
     padding: 20px 0px 400px 0px;
 }
@@ -40,7 +41,7 @@ nav {
 }
 
 #projekte {
-    background-color: #A0CFD3;
+    
 }
 
 #projekte a {
@@ -50,28 +51,29 @@ nav {
 footer {
     background-color: #003FBC;
     color: white;
-    display: flex;
     height: 100%;
-    justify-content: space-evenly;
+   
 }
 
-#kontaktText {
-    margin-right: 50px;
+#kontaktItems {
+    display: flex;
+    justify-content: space-around;
 }
 
-#kontaktText p {
-    margin-right: 100px;
-}
 
-#kontakt div {
+#kontaktItems div {
     padding: 30px 0;
-    justify-content: space-evenly;
     width: 100%;
     align-items: center;
-    display: flex;
 }
 
 #meineHobbies ul{
     position: relative;
-    
+    list-style: none;
+   
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
 }
