@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+/*Farbcodes: *003fbc-b4edd2-a0cfd3-8d94ba-9a7aa0*/
+
+a {
+    color: white;
+    text-decoration: inherit;
+}
+
+h1 {
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    justify-content: space-evenly;
+    width: 100%;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    background-color: #003FBC; /* ;) */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    padding: 35px 0;
+}
+
+#aboutMe {
+    background-color: #A0CFD3;
+    margin: 0px;
+    padding: 20px 0px 400px 0px;
+}
+
+#bildungsweg {
+    background-color: #8D94BA;
+    margin: 0px;
+    padding: 0px;
+}
+
+#projekte {
+    background-color: #A0CFD3;
+}
+
+#projekte a {
+    color: #003FBC;
+}
+
+footer {
+    background-color: #003FBC;
+    color: white;
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+#kontaktText {
+    margin-right: 50px;
+}
+
+#kontaktText p {
+    margin-right: 100px;
+}
+
+#kontakt div {
+    padding: 30px 0;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+#meineHobbies ul{
+    position: relative;
+    
+}
