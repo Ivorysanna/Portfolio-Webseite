@@ -2,18 +2,19 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    font-size: larger;
 }
 
 /*Farbcodes: *003fbc-b4edd2-a0cfd3-8d94ba-9a7aa0*/
 
 a {
-
     color: white;
     text-decoration: inherit;
 }
 
 h1 {
     margin: 0px;
+    padding-bottom: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -23,40 +24,61 @@ nav {
     display: flex;
     height: 50px;
     align-items: center;
-    background-color: #003FBC; /* ;) */
+    background-color: #003FBC;
+    /* ;) */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
+    font-size: larger;
     padding: 35px 0;
+}
+
+/*About Me*/
+
+#aboutMe div {
+    padding-bottom: 20px;
 }
 
 #aboutMe {
     margin: 0px;
-    padding: 20px 0px 400px 0px;
+    padding: 20px 0px 20px 0px;
 }
+
+#meineHobbies {
+    position: relative;
+    padding: 20px;
+    font-size: larger;
+}
+
+/*Bildungsweg*/
 
 #bildungsweg {
     background-color: #8D94BA;
     margin: 0px;
-    padding: 0px;
+    padding: 20px 0px 20px 0px;
 }
 
-#bildungsweg article{
+#bildungsweg article {
     padding-bottom: 10px;
 }
 
+/*Projekte*/
+
 #projekte {
-    
+    padding: 20px 0px 20px 0px;
 }
 
 #projekte a {
     color: #003FBC;
 }
 
+/*Footer*/
+
 footer {
     background-color: #003FBC;
     color: white;
     height: 100%;
-   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
 }
 
 #kontaktItems {
@@ -64,26 +86,19 @@ footer {
     justify-content: space-around;
 }
 
-
 #kontaktItems div {
     padding: 30px 0;
     width: 100%;
     align-items: center;
 }
 
-#meineHobbies ul{
-    position: relative;
-    list-style: none;
-   
-}
-
-.flex-container{
+.flex-container {
     display: flex;
     justify-content: space-around;
 }
 
-
 /*Anpassungen für meine Bilder*/
+
 .flexContainer {
     display: flex;
     justify-content: center;
@@ -97,4 +112,3 @@ footer {
 .image-fill-width {
     width: 100%;
 }
-
