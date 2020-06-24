@@ -14,12 +14,23 @@ body {
 a {
     color: white;
     text-decoration: inherit;
+    font-size: 19px;
 }
 
 h1 {
     margin: 0px;
     padding-bottom: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+h2{
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+p{
+    font-size: 19px;
 }
 
 nav {
@@ -34,7 +45,6 @@ nav {
     font-size: larger;
     padding: 35px 0;
 }
-
 
 /*About Me*/
 
@@ -56,11 +66,14 @@ nav {
 #bildVonMir {
     width: 30%;
     border-radius: 50%;
+    height: 100%;
+    margin-right: 30px;
 }
 
-.irgendwie{
+.aboutMe-container{
     width: 70%;
     margin: 0 auto;
+    align-items: center;
 }
 
 /*Bildungsweg*/
@@ -73,6 +86,16 @@ nav {
 
 #bildungsweg article {
     padding-bottom: 10px;
+    font-size: 19px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px auto;
+    background-color: #cccccc;
+    width: 50%;
+}
+
+#bildungsweg p{
+    margin-bottom: 0;
 }
 
 /*Projekte*/
@@ -91,6 +114,15 @@ nav {
 
 .htmlProjekt p{
     margin-bottom: 10px;
+}
+
+.img-container{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.img-container img{
+    width: 50%;
 }
 
 /*Footer*/
@@ -116,7 +148,6 @@ footer {
 
 .flex-center {
     justify-content: center;
-    width: 100%;
 }
 
 .flex-center img{
@@ -127,7 +158,9 @@ footer {
     fill: white;
 }
 
-
+#kontaktItems span{
+    font-size: xx-large;
+}
 
 /*Anpassungen für meine Bilder*/
 
@@ -135,14 +168,6 @@ footer {
     display: flex;
     justify-content: center;
     padding-top: 10px;
-}
-
-.flex-column {
-    flex-direction: column;
-}
-
-.image-fill-width {
-    width: 100%;
 }
 
 
