@@ -40,6 +40,10 @@ nav {
     padding: 0px;
 }
 
+#bildungsweg article{
+    padding-bottom: 10px;
+}
+
 #projekte {
     
 }
@@ -77,3 +81,20 @@ footer {
     display: flex;
     justify-content: space-around;
 }
+
+
+/*Anpassungen für meine Bilder*/
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.image-fill-width {
+    width: 100%;
+}
+
