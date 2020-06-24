@@ -5,14 +5,13 @@
     <title>Lebenslauf</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
     <header>
-        <nav class="navigation">
+        <nav class="navigation flex-container">
             <a href="#bildVonMir">About me</a>
             <a href="#bildungsweg">Bildungsweg</a>
             <a href="#projekte">Projekte</a>
@@ -23,26 +22,24 @@
     <section id="aboutMe">
         <div>
             <h1>Herzlich Willkommen</h1>
-            <span>Hi, ich bin Violetta Pyralov, studiere momentan Medieninformatik im zweiten Semester an der Hochschule in Furtwangen.</span>
+                <p>Hi, ich bin Violetta Pyralov, studiere momentan Medieninformatik im zweiten Semester an der Hochschule in Furtwangen.</p>
         </div>
 
-    <div class="flex-container"> 
-        <div id="bildVonMir">
-            <img src="Bilder/profilbild.jpg" alt="Ein Bild von Violetta Pyralov">
-        </div>
+    <div class="flex-space-arround flex-container irgendwie" > 
+            <img src="Bilder/profilbild.jpg" id="bildVonMir" alt="Ein Bild von Violetta Pyralov">
+        
 
         <div id="meineHobbies">
             <h3>Über mich</h3>
-            <span>Zu meinen Hobbies gehören <b>fotografieren, zeichnen, schwimmen</b>. Bildbearbeitung sollte nicht zu kurz kommen, hierfür verwende ich Photoshop und Lightroom. 
-                Lieblingsmotive habe ich keine, jedoch gefällt mir Portraitfotografie sehr. 
+            <p>Zu meinen Hobbies gehören <b>fotografieren, zeichnen, schwimmen</b>. Bildbearbeitung sollte nicht zu kurz kommen, hierfür verwende ich Photoshop und Lightroom. 
+                Am meisten interessiert mich die Cosplay-Fotografie. 
                 <br/>
                 Momentan leider schlecht möglich, aber dennoch reise ich sehr gerne. Und kann mir gut vorstellen, ein Auslandssemester einzulegen.
-            </span>
+            </p>
         </div>
     </div>
 
     </section>
-
 
     <section id="bildungsweg">
         <!--Schulischer Werdegang-->
@@ -79,8 +76,7 @@
     <section id="projekte">
         <div class="htmlProjekt">
             <h1>HTML/CSS/JS</h1>
-            <span>Wir haben im zweiten Semester einen eigenen Shop kreiert um HTML/CSS/JS zu lernen.</span>
-            <br/>
+            <p>Wir haben im zweiten Semester einen eigenen Shop kreiert um HTML/CSS/JS zu lernen.</p>
             <a href="https://ivorysanna.github.io/GiS-SoSe2020/Aufgaben/08/Startseite.html" target="_blank">Shop Prototyp</a>
         </div>
         <div class="blenderProjekt">
@@ -89,10 +85,9 @@
         </div>
 
         <h1>Fotografie</h1>
-        <div class="flexContainer flex column">
-            <br/>
-            <img src="Bilder/IBau.PNG" class="image-fill-width" alt="Bild vom IBau">
-            <img src="Bilder/makroStein.PNG" class="image-fill-width" alt="Makro Aufnahme von einem Stein">
+        <div class="flex-center flex-container">
+            <img src="Bilder/IBau.PNG"  alt="Bild vom IBau">
+            <img src="Bilder/makroStein.PNG" alt="Makro Aufnahme von einem Stein">
         </div>
     </section>
 
@@ -100,7 +95,7 @@
     <footer>
         <section id="kontakt">
             <h1>Kontakt</h1>
-            <div id="kontaktItems">
+            <div id="kontaktItems" class="flex-container">
                 <div >
                     <img src="icon/email.svg" alt="emailIcon">
                     <p>E-Mail: violetta.pyralov@web.de</p>
