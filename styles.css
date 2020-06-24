@@ -3,6 +3,7 @@ body {
     padding: 0;
     text-align: center;
     font-size: larger;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /*Farbcodes: *003fbc-b4edd2-a0cfd3-8d94ba-9a7aa0*/
@@ -40,13 +41,17 @@ nav {
 
 #aboutMe {
     margin: 0px;
-    padding: 20px 0px 20px 0px;
+    padding: 20px 20px 20px 20px;
 }
 
 #meineHobbies {
     position: relative;
     padding: 20px;
     font-size: larger;
+}
+
+#bildVonMit img {
+    /*Bild kleiner machen*/
 }
 
 /*Bildungsweg*/
@@ -71,7 +76,7 @@ nav {
     color: #003FBC;
 }
 
-.htmlProjekt{
+.htmlProjekt {
     padding-bottom: 10px;
 }
 
