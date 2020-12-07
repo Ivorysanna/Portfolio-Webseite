@@ -92,7 +92,7 @@ nav {
     padding: 20px;
     border-radius: 10px;
     margin: 30px auto;
-    background-color: #cccccc;
+    background-color: white;
     width: 50%;
 }
 
@@ -176,5 +176,20 @@ footer {
 @media (min-width: 1025px) {
     #aboutMe{
         padding-left: 100px;
+    }
+}
+
+@media (max-width: 400px){
+    .aboutMe-container{
+        flex-direction: column;
+    }
+
+    #bildVonMir{
+        object-fit: cover;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        /* height: 100%; */
+        margin-left: 15%;   
     }
 }
